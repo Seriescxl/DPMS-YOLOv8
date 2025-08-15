@@ -1,0 +1,15 @@
+
+#train: train.txt  # train images (relative to 'path') 118287 images
+#val: val.txt  # val images (relative to 'path') 5000 images
+
+train: E:\dataset\helmet\images\train
+
+test: E:\dataset\helmet\images\test
+
+val: E:\dataset\helmet\images\val
+# number of classes
+nc: 1
+
+# class names
+names:
+  0: Mine_Safety_Helmet
