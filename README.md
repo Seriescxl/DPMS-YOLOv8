@@ -19,16 +19,14 @@
 ---
 
 ## ⚙️ 环境配置
-
-| 硬件 / 软件 | 规格 |
-|-------------|------|
-| CPU         | Intel(R) Core(TM) i7-14700KF 3.40 GHz |
-| 内存        | 32 GB |
-| GPU         | NVIDIA GeForce RTX 4080 SUPER |
-| 操作系统    | Windows 11 |
 | CUDA 版本   | 12.1 |
 | Python 版本 | 3.11 |
 
 安装依赖：
 ```bash
 pip install -r requirements.txt
+pip install -r requirements.txt
+
+运行推理
+python detect.py --source test.jpg --weights DPMS-Yolov8.pt
+
