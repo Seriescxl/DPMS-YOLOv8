@@ -1,16 +1,34 @@
 # DPMS-YOLOv8
-基于煤矿井下数据对YOLOv8结构进行改进，在公开数据集上达到98%的正确率
-DSLMF数据集下载地址：https://springernature.figshare.com/articles/dataset/An_open_dataset_for_intelligent_recognition_and_classification_of_abnormal_condition_in_longwall_mining/22654945
-DPMD-YOLOv8整体架构图
-<img width="558" height="241" alt="image" src="https://github.com/user-attachments/assets/052e6e9c-f65a-4317-9339-d4d8f4ce8c77" />
 
-代码的运行环境为：
-Processor	Intel(R) Core(TM) i7-14700KF 3.40 GHz
-Operating System	    Windows 11 
-Memory Capacity	      32GB
-GPU Model	NVIDIA GeForce RTX 4080 SUPER
-CUDA Version	        12.1
-Python Version	      3.11
+**DPMS-YOLOv8** 是基于煤矿井下图像数据，对 YOLOv8 网络结构进行改进的目标检测模型，在公开 DSLMF 数据集上取得了 **98% 的准确率**。  
+该项目旨在提升井下异常检测的精度与鲁棒性，适用于智能化煤矿安全监测场景。
 
-本结构与目前主流的目标检测算法精度对比图
-<img width="600" height="492" alt="image" src="https://github.com/user-attachments/assets/04e732eb-4236-4aec-a5cb-77a01a766b8d" />
+---
+
+## 📂 数据集
+
+- **DSLMF 数据集下载**：[点击获取](https://springernature.figshare.com/articles/dataset/An_open_dataset_for_intelligent_recognition_and_classification_of_abnormal_condition_in_longwall_mining/22654945)
+
+---
+
+## 🏗️ 模型架构
+
+### 整体结构
+<img width="558" height="241" alt="DPMS-YOLOv8架构图" src="https://github.com/user-attachments/assets/052e6e9c-f65a-4317-9339-d4d8f4ce8c77" />
+
+---
+
+## ⚙️ 环境配置
+
+| 硬件 / 软件 | 规格 |
+|-------------|------|
+| CPU         | Intel(R) Core(TM) i7-14700KF 3.40 GHz |
+| 内存        | 32 GB |
+| GPU         | NVIDIA GeForce RTX 4080 SUPER |
+| 操作系统    | Windows 11 |
+| CUDA 版本   | 12.1 |
+| Python 版本 | 3.11 |
+
+安装依赖：
+```bash
+pip install -r requirements.txt
