@@ -27,11 +27,16 @@
 pip install -r requirements.txt
 pip install -e .
 
-🚀 快速开始
-运行推理
+
+## 🚀 快速开始
+运行推理：
+```bash
 python detect.py --source test.jpg --weights DPMS-Yolov8.pt
 
-📊 性能对比
 
-与当前主流目标检测算法的精度对比：
-<img width="600" height="492" alt="精度对比图" src="https://github.com/user-attachments/assets/04e732eb-4236-4aec-a5cb-77a01a766b8d" />
+## 🚀 快速开始
+运行推理：
+```bash
+python detect.py --source test.jpg --weights DPMS-Yolov8.pt
+
+
