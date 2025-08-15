@@ -25,13 +25,14 @@
 安装依赖：
 ```bash
 pip install -r requirements.txt
-pip install -e .
+pip install -e .```
+
 ---
 
 ## 🚀 快速开始
 运行推理：
 ```bash
-python detect.py --source test.jpg --weights DPMS-Yolov8.pt
+python detect.py --source test.jpg --weights DPMS-Yolov8.pt```
 ---
 
 ## 🚀 快速开始
